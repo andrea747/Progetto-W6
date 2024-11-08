@@ -1,0 +1,62 @@
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.logonav {
+  width: 70px;
+}
+
+.bg-body-tertiary {
+  background-color: rgb(20, 20, 20) !important;
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.genere {
+  list-style: none;
+}
+
+.boxart {
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  margin-right: 1%;
+  padding: 28.125% 0;
+  width: 99%;
+}
+
+h2 {
+  color: white;
+  font-size: medium;
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+/* Nasconde la barra di scorrimento su Webkit (Chrome, Safari) */
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Stile per le immagini */
+.scroll-container img {
+  width: 200px; /* Dimensione fissa delle immagini */
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.scroll-container img:not(:last-child) {
+  margin-right: 10px; /* Applica il margine destro solo alle immagini che non sono l'ultima */
+}
